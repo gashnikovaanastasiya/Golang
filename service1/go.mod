@@ -1,7 +1,6 @@
-module github.com/gashnikovaanastasiya/Golang
+module github.com/gashnikovaanastasiya/Golang/service1
 
 go 1.17
-<<<<<<< HEAD
 
 require github.com/labstack/echo/v4 v4.6.1
 
@@ -16,5 +15,3 @@ require (
 	golang.org/x/sys v0.0.0-20210910150752-751e447fb3d0 // indirect
 	golang.org/x/text v0.3.7 // indirect
 )
-=======
->>>>>>> dd1b65946b1ac3a1d80522260d0ff4e906f920b0
