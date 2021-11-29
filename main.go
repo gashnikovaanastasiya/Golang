@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"github.com/gashnikovaanastasiya/Golang/service1"
 )
 
 func main() {
-	fmt.Print(hi())
+	service1.Service1()
 }
