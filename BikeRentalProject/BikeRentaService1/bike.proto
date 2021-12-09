@@ -1,0 +1,26 @@
+syntax ="proto3";
+
+package go.micro.srv.bike;
+
+option go_package="/bike";
+
+service BikeRentalService {
+rpc RentBike(BikeRequest) returns (Response) {}
+rpc ReturnBike(BikeRequest) returns (Response) {}
+rpc CreateBike(Address) returns (Response) {}
+rpc GetAll(Empty) returns (Response) {}
+}
+
+message BikeRequest {
+int32 bikeId=1;
+string address=2;
+}
+message Address {
+string address=1;
+}
+message Empty {
+
+}
+message Response {
+string response=1;
+}
